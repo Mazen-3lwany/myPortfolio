@@ -103,7 +103,7 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold mb-4 font-serif text-white">
-              <span className="block">Hello, I'm Mazen </span>
+              <span className="block">Hello, I&#39;m Mazen </span>
             </h1>
 
             <div className="flex flex-wrap gap-3 my-6">
@@ -119,7 +119,7 @@ const Hero = () => {
 
             <div className="my-8">
                 <p className="text-white/80 mb-6 leading-relaxed">
-                    I'm Mazen Elwany , front-end developer skilled in React.js and Next.js, currently studying
+                    I&#39;m Mazen Elwany , front-end developer skilled in React.js and Next.js, currently studying
                     at the Faculty of Computer and Information, Minya University. I hold certifications
                     in CCNA and Machine Learning from NTI,
                     and I’m passionate about building modern, user-focused web applications..
@@ -152,7 +152,7 @@ const Hero = () => {
               <a href="#Contact" className="group">
                 <button className="flex items-center gap-3 px-6 py-3 bg-transparent border border-white/30 hover:border-white/50 rounded-lg text-white font-medium transition-all duration-300 w-full sm:w-auto justify-center shadow-sm hover:shadow">
                   <Coffee size={18} className="text-white" />
-                  <span>Let's Connect</span>
+                  <span>Let&#39;s Connect</span>
                 </button>
               </a>
             </div>

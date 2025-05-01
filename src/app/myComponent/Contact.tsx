@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 
 // Type definitions for the props and state
-interface ContactProps {}
 
-const Contact: React.FC<ContactProps> = () => {
+
+const Contact: React.FC = () => {
   const [animate, setAnimate] = useState<boolean>(false);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const Contact: React.FC<ContactProps> = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
           <div className="w-20 md:w-24 h-1 bg-indigo-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-xl mx-auto text-base md:text-lg">
-            I'm currently available for freelance work or full-time positions. Feel free to reach out!
+            I&#39;m currently available for freelance work or full-time positions. Feel free to reach out!
           </p>
         </div>
 
@@ -132,8 +132,8 @@ const Contact: React.FC<ContactProps> = () => {
             </div>
 
             <div className="text-center space-y-4 px-2">
-              <h3 className="text-lg md:text-2xl font-bold text-indigo-400">Let's Build Something Amazing</h3>
-              <p className="text-gray-300 text-sm md:text-base">I bring creative solutions to challenging problems. Whether you need a custom website, application, or digital experience, I'd love to collaborate.</p>
+              <h3 className="text-lg md:text-2xl font-bold text-indigo-400">Let&#39;s Build Something Amazing</h3>
+              <p className="text-gray-300 text-sm md:text-base">I bring creative solutions to challenging problems. Whether you need a custom website, application, or digital experience, I&#39;d love to collaborate.</p>
               <a href="mailto:mazenmohamedelwany@gmail.com" className="inline-block py-3 px-6 md:px-8 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium shadow-lg transition-colors duration-300 text-sm md:text-base">
                 Contact
               </a>

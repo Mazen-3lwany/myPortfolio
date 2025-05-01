@@ -14,7 +14,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, projectDescripti
     <div className="project-card">
       {/* Check if projectImage is string or StaticImageData and render accordingly */}
         {typeof projectImage === 'string' ? (
-        <img src={projectImage} alt={projectName} />
+        <Image 
+            src={projectImage}
+            alt={projectName} />
         ) : (
         <Image src={projectImage} alt={projectName} width={500} height={500} /> // Use next/image for StaticImageData
         )}
