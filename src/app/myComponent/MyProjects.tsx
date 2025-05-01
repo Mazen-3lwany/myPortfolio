@@ -8,7 +8,7 @@ import Social from '../assets/social.png';
 import { DiHtml5, DiCss3, DiBootstrap, DiJavascript, DiReact } from 'react-icons/di';
 import { SiTailwindcss } from 'react-icons/si';
 
-// Type for the project tech array, which will hold React icons
+
 
 const MyProjects: React.FC = () => {
     return (
