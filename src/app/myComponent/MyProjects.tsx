@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+
 import ProjectCard from './ProjectCard';
 import Prayer from '../assets/prayer.jpg';
 import ToDo from '../assets/ToDo.jpg';
@@ -9,13 +9,8 @@ import { DiHtml5, DiCss3, DiBootstrap, DiJavascript, DiReact } from 'react-icons
 import { SiTailwindcss } from 'react-icons/si';
 
 // Type for the project tech array, which will hold React icons
-type ProjectTech = JSX.Element[];
 
-interface MyProjectsProps {
-  // You can add more props if required here
-}
-
-const MyProjects: React.FC<MyProjectsProps> = () => {
+const MyProjects: React.FC = () => {
     return (
     <div id='Projects' className="mt-44 flex flex-col gap-2 relative ">
       {/* Header */}
