@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { DiHtml5, DiCss3, DiBootstrap, DiJavascript, DiReact } from 'react-icons/di';
-import { SiTailwindcss, SiNextdotjs, SiCplusplus,SiCisco } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiCplusplus,SiCisco,SiPrisma,SiPostgresql,SiAuth0 } from 'react-icons/si';
 
 // Python Icon
 const PythonIcon = () => (
@@ -38,7 +38,10 @@ const skills = [
   { name: 'Python', icon: <PythonIcon />, color: '#3776AB' },
   { name: 'C#', icon: <CSharpIcon />, color: '#68217A' },
   { name: 'Java', icon: <JavaIcon />, color: '#EA2D2E' },
-  { name: 'CNNA', icon: <SiCisco size={70} className="text-[#0d0249]" />, color: '#0d0249' }
+  { name: 'CNNA', icon: <SiCisco size={70} className="text-[#0d0249]" />, color: '#0d0249' },
+  { name: 'Prisma', icon: <SiPrisma size={70} className="text-black dark:text-white" />, color: '#000000' },
+  { name: 'Postgresql', icon: <SiPostgresql size={70} className="text-[#01297e]" />, color: '#00319e'  },
+  { name: 'NextAuth', icon: <SiAuth0 size={70} className="text-black dark:text-white" />, color: '#0d0249' }
 ];
 
 // Component

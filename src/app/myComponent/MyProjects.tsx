@@ -3,10 +3,11 @@ import ProjectCard from './ProjectCard';
 import Prayer from '../assets/prayer.jpg';
 import ToDo from '../assets/ToDo.jpg';
 import Social from '../assets/social.png';
+import fullToDo from '../assets/fullToDo.png'
 
 
 import { DiHtml5, DiCss3, DiBootstrap, DiJavascript, DiReact } from 'react-icons/di';
-import { SiTailwindcss } from 'react-icons/si';
+import { SiTailwindcss,SiNextdotjs,SiPrisma,SiPostgresql,SiAuth0 } from 'react-icons/si';
 
 
 
@@ -58,7 +59,7 @@ const MyProjects: React.FC = () => {
         <div className="w-1/5"></div>
         </div>
 
-      {/* Fourth Row */}
+      {/* third Row */}
         <div className="h-80 flex justify-around items-center relative">
         <div className="absolute left-1/2 right-[42%] top-1/2 h-1 bg-gray-700"></div>
         <div className="w-1/5"></div>
@@ -73,6 +74,24 @@ const MyProjects: React.FC = () => {
         </div>
     
     </div>
+    {/* Fourth row */}
+    <div className="h-80 flex justify-around items-center relative">
+        <div className="absolute right-1/2 left-[42%] top-1/2 h-1 bg-gray-700"></div>
+        
+        <div className="flex justify-start">
+            <ProjectCard
+            projectName="ToDo List"
+            projectDescription=" Full Stack ToDo List  allow users handle their tasks"
+            projectImage={fullToDo}
+            project_href='https://github.com/Mazen-3lwany/Full-Stack-ToDo-list'
+            project_tech={[<SiNextdotjs key="Next js" size={30} color='3673B6'/>,
+                <SiPrisma key="Prisma" color='3673B6' size={30}/>, 
+                <SiAuth0 key="NextAuth" size={30} color='#67BCF2'/>,
+                <SiPostgresql key='Postgresql'size={30} color='#78D3FA'/>]}
+            />
+        </div>
+        <div className="w-1/5"></div>
+        </div>
     </div>
   );
 };

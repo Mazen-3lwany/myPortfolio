@@ -119,10 +119,14 @@ const Hero = () => {
 
             <div className="my-8">
                 <p className="text-white/80 mb-6 leading-relaxed">
-                    I&#39;m Mazen Elwany , front-end developer skilled in React.js and Next.js, currently studying
-                    at the Faculty of Computer and Information, Minya University. I hold certifications
-                    in CCNA and Machine Learning from NTI,
-                    and I’m passionate about building modern, user-focused web applications..
+                    I&#39;m Mazen Elwany, a Full-Stack Developer specializing in React.js
+                    and Next.js for the frontend, and skilled in building secure and 
+                    scalable backends with Prisma, PostgreSQL, and NextAuth. I&#39;m currently
+                    studying at the Faculty of Computer and Information, Minya University,
+                    and I hold certifications in CCNA and Machine Learning from NTI.
+                    I&#39;m passionate about developing modern, user-focused web applications 
+                    that integrate powerful databases and authentication systems to deliver
+                      seamless digital experiences.
                 </p>
 
               <div className="font-mono text-white h-6 mb-8">
