@@ -4,6 +4,7 @@ import Prayer from '../assets/prayer.jpg';
 import ToDo from '../assets/ToDo.jpg';
 import Social from '../assets/social.png';
 import fullToDo from '../assets/fullToDo.png'
+import Ecommerece from '../assets/e-commerece.png'
 
 
 import { DiHtml5, DiCss3, DiBootstrap, DiJavascript, DiReact } from 'react-icons/di';
@@ -92,6 +93,25 @@ const MyProjects: React.FC = () => {
         </div>
         <div className="w-1/5"></div>
         </div>
+        {/* five row */}
+        <div className="h-80 flex justify-around items-center relative">
+        <div className="absolute left-1/2 right-[42%] top-1/2 h-1 bg-gray-700"></div>
+        <div className="w-1/5"></div>
+        <div className="flex justify-start">
+            <ProjectCard
+            projectName="E-Commerece Website"
+            projectDescription=" Full-stack e-commerce app using Next.js, Prisma, and PostgreSQL.⚡"
+            projectImage={Ecommerece}
+            project_href='https://e-commerce-hazel-delta-41.vercel.app/'
+            project_tech={[<SiNextdotjs key="Next js" size={30} color='3673B6'/>,
+                <SiPrisma key="Prisma" color='3673B6' size={30}/>, 
+                <SiAuth0 key="NextAuth" size={30} color='#67BCF2'/>,
+                <SiPostgresql key='Postgresql'size={30} color='#78D3FA'/>]}
+            />
+        </div>
+        
+        </div>
+
     </div>
   );
 };
