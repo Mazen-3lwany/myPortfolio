@@ -60,7 +60,7 @@ const Certificate: React.FC = () => {
         content: (
         <Card
             title="Backend Development with Node.js (Internship)"
-            date="12/9/2024"
+            date=" from 12/2025 to 3/2026"
             org="Huma Volve Company"
             location="Cairo, Egypt"
             onShow={() => setType('Huma')}
