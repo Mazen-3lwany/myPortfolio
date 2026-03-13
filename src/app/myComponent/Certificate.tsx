@@ -7,11 +7,13 @@ import CertificateImage from './CertificateImage';
 
 import ML from '../assets/ML.jpg';
 import CCNA from '../assets/CNNA.png';
+import Huma from '../assets/Mazen Mohamed.jpg';
+import PY from '../assets/Screenshot (350).png';
 import type { StaticImageData } from 'next/image';
 
 
 
-type CertificateType =  'ML'  |'CCNA'| null;
+type CertificateType =  'ML'  |'CCNA'|'PY'| 'Huma'|null;
 
 const Certificate: React.FC = () => {
     const [type, setType] = useState<CertificateType>(null);
@@ -43,11 +45,35 @@ const Certificate: React.FC = () => {
         />
         ),
     },
+    {
+        content: (
+        <Card
+            title="Python for Data Analysis"
+            date="27/10/2025"
+            org="National Telecommunication Institute (NTI)"
+            location="Minia, Egypt"
+            onShow={() => setType('PY')}
+        />
+        ),
+    },
+    {
+        content: (
+        <Card
+            title="Backend Development with Node.js (Internship)"
+            date="12/9/2024"
+            org="Huma Volve Company"
+            location="Cairo, Egypt"
+            onShow={() => setType('Huma')}
+        />
+        ),
+    },
     ];
 
     const certificateImages: Record<Exclude<CertificateType, null>, StaticImageData> = {
         ML: ML,
         CCNA: CCNA,
+        PY:PY,
+        Huma: Huma
         };
 
     return (
