@@ -2,7 +2,10 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { DiHtml5, DiCss3, DiBootstrap, DiJavascript, DiReact } from 'react-icons/di';
-import { SiTailwindcss, SiNextdotjs, SiCplusplus,SiCisco,SiPrisma,SiPostgresql,SiAuth0 } from 'react-icons/si';
+import {
+  SiTailwindcss, SiNextdotjs, SiCplusplus, SiCisco, SiPrisma,
+  SiPostgresql, SiAuth0, SiNestjs, SiExpress, SiMongodb, SiMongoose
+} from 'react-icons/si';
 
 // Python Icon
 const PythonIcon = () => (
@@ -38,9 +41,13 @@ const skills = [
   { name: 'Python', icon: <PythonIcon />, color: '#3776AB' },
   { name: 'C#', icon: <CSharpIcon />, color: '#68217A' },
   { name: 'Java', icon: <JavaIcon />, color: '#EA2D2E' },
-  { name: 'CNNA', icon: <SiCisco size={70} className="text-[#0d0249]" />, color: '#0d0249' },
+  { name: 'CCNA', icon: <SiCisco size={70} className="text-[#0d0249]" />, color: '#0d0249' },
   { name: 'Prisma', icon: <SiPrisma size={70} className="text-black dark:text-white" />, color: '#000000' },
-  { name: 'Postgresql', icon: <SiPostgresql size={70} className="text-[#01297e]" />, color: '#00319e'  },
+  { name: 'Postgresql', icon: <SiPostgresql size={70} className="text-[#01297e]" />, color: '#00319e' },
+  { name: 'NestJS', icon: <SiNestjs size={70} className="text-[#E0234E]" />, color: '#E0234E' },
+  { name: 'Express.js', icon: <SiExpress size={70} className="text-black dark:text-white" />, color: '#444444' },
+  { name: 'MongoDB', icon: <SiMongodb size={70} className="text-[#47A248]" />, color: '#47A248' },
+  { name: 'Mongoose', icon: <SiMongoose size={70} className="text-[#880000]" />, color: '#880000' },
   { name: 'NextAuth', icon: <SiAuth0 size={70} className="text-black dark:text-white" />, color: '#0d0249' }
 ];
 
